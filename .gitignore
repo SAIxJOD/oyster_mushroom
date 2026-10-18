@@ -1,0 +1,15 @@
+# Large datasets
+raw_dataset/
+clean_dataset/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets
+.env
+
+# Training outputs
+runs/

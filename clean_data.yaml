@@ -1,0 +1,17 @@
+# ============================================================
+# Oyster Mushroom Disease Detection
+# Clean Group-Aware Dataset
+# YOLOv8 Instance Segmentation
+# ============================================================
+
+path: ./clean_dataset
+
+train: train/images
+val: valid/images
+test: test/images
+
+names:
+  0: Bacterial Blotch
+  1: Dry Bubble
+  2: Healthy
+  3: Trichoderma
